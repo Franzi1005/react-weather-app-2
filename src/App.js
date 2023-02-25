@@ -8,7 +8,7 @@ function App() {
   axios.get(url).then(alertWeather);
 
   function alertWeather(response) {
-    alert(response.data.main.temp);
+    alert(`It's currently ${Math.round(response.data.main.temp)}°C in London`);
   }
 
   return (
