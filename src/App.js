@@ -1,5 +1,5 @@
 import "./App.css";
-
+import Weather from "./Weather";
 import axios from "axios";
 
 function App() {
@@ -8,13 +8,13 @@ function App() {
   axios.get(url).then(alertWeather);
 
   function alertWeather(response) {
-    alert(`It's currently ${Math.round(response.data.main.temp)}°C in London`);
+    //alert(`It's currently ${Math.round(response.data.main.temp)}°C in London`);
   }
 
   return (
     <div className="App">
       <header className="App-header">
-        <p>Woohoo!!</p>
+        <Weather />
       </header>
     </div>
   );
