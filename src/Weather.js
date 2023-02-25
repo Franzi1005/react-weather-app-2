@@ -44,7 +44,7 @@ export default function Weather() {
             </div>
             <div className="col">
               <img src="rain.png" alt="Weather Image" />
-              <h2>21°C</h2>
+              <h2>2°C</h2>
             </div>
           </div>
         </div>
