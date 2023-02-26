@@ -6,16 +6,16 @@ export default function Weather() {
       <div className="weather-section">
         <ul className="header-cities">
           <li>
-            <a href="">Lisbon</a>
+            <a href="#">Lisbon</a>
           </li>
           <li>
-            <a href="">Paris</a>
+            <a href="#">Paris</a>
           </li>
           <li>
-            <a href="">Sydney</a>
+            <a href="#">Sydney</a>
           </li>
           <li>
-            <a href="">San Francisco</a>
+            <a href="#">San Francisco</a>
           </li>
         </ul>
         <form>
@@ -43,7 +43,7 @@ export default function Weather() {
               </ul>
             </div>
             <div className="col">
-              <img src="rain.png" alt="Weather Image" />
+              <img src="rain.png" alt="Weather Condition" />
               <h2>2°C</h2>
             </div>
           </div>
