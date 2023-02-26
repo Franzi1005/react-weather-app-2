@@ -32,7 +32,7 @@ export default function Weather() {
 
   let date = now.getDate();
   let month = allMonths[now.getMonth()];
-  let year = now.getFullYear();
+  //let year = now.getFullYear();
   let hours = now.getHours();
   if (hours < 10) {
     hours = `0${hours}`;
