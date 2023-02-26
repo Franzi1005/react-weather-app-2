@@ -1,3 +1,7 @@
+body {
+  font-size: 12px;
+}
+
 .weather-section {
   max-width: 600px;
   padding: 16px;
