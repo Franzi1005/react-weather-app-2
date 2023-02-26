@@ -6,16 +6,16 @@ export default function Weather() {
       <div className="weather-section">
         <ul className="header-cities">
           <li>
-            <a href="#">Lisbon</a>
+            <a href="https://github.com/Franzi1005">Lisbon</a>
           </li>
           <li>
-            <a href="#">Paris</a>
+            <a href="https://github.com/Franzi1005">Paris</a>
           </li>
           <li>
-            <a href="#">Sydney</a>
+            <a href="https://github.com/Franzi1005">Sydney</a>
           </li>
           <li>
-            <a href="#">San Francisco</a>
+            <a href="https://github.com/Franzi1005">San Francisco</a>
           </li>
         </ul>
         <form>
