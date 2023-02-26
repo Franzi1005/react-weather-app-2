@@ -13,9 +13,13 @@ ul {
 .header-cities li {
   display: inline;
   padding: 14px;
+  font-size: 16px;
 }
 a {
   text-decoration: none;
+}
+button {
+  margin: 4px 4px 4px 0px;
 }
 
 h1 {
