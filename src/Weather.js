@@ -52,7 +52,7 @@ export default function Weather() {
   const [humidity, setHumidity] = useState(" ");
   const [icon, setIcon] = useState(" ");
   const [message, setMessage] = useState("");
-  const [forecastday, setForecastday] = useState(" ");
+ // const [forecastday, setForecastday] = useState(" ");
 
   function updateCity(event) {
     setCity(event.target.value);
@@ -61,8 +61,8 @@ export default function Weather() {
   let apiKey = "8a869017a9bbe9c440c0fea9e1fa0af6";
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-  function displayForecast(response) {
-    let forecast = response.data.daily;
+ // function displayForecast(response) {
+  //  let forecast = response.data.daily;
 
     //   forecast.map(function (day, index) {
     //     setForecastday(
