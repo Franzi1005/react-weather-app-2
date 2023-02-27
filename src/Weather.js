@@ -97,7 +97,6 @@ export default function Weather() {
   }
 
   function showWeather(response) {
-    setLoaded(true);
     setTemperature(Math.round(response.data.main.temp));
     setWind(response.data.wind.speed);
     setDescription(response.data.weather[0].description);
