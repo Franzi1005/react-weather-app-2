@@ -123,7 +123,7 @@ export default function Weather() {
     handleSearch(event);
   }
 
-  showLocalTemp();
+  //showLocalTemp();
   return (
     <div className="Weather">
       <div className="weather-section">
