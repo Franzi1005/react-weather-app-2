@@ -52,7 +52,7 @@ export default function Weather() {
   const [humidity, setHumidity] = useState(" ");
   const [icon, setIcon] = useState(" ");
   const [message, setMessage] = useState("");
-  const [loaded, setLoaded] = useState(false);
+  //const [loaded, setLoaded] = useState(false);
   // const [forecastday, setForecastday] = useState(" ");
 
   function updateCity(event) {
@@ -87,7 +87,6 @@ export default function Weather() {
   }
 
   function showLocalTemp() {
-    setLoaded(true);
     navigator.geolocation.getCurrentPosition(showPosition);
   }
 
