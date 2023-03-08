@@ -87,6 +87,7 @@ export default function Weather() {
   }
 
   function showLocalTemp() {
+    setLoaded(true);
     navigator.geolocation.getCurrentPosition(showPosition);
   }
 
